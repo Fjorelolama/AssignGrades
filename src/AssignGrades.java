@@ -2,8 +2,11 @@
 import java.util.Scanner;
 public class AssignGrades {
     public static void main(String[] args) {
+
         Scanner userInput = new Scanner(System.in);
-        int highestScore = 0;  System.out.println("Enter number of Students : ");
+        int highestScore = 0;
+
+        System.out.println("Enter number of Students : ");
         int i = userInput.nextInt();
         int[] marks = new int[i];
         String[] grade = new String[i];
